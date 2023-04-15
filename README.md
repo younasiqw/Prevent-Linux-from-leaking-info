@@ -10,7 +10,7 @@
 
 您可以讓此脚本一直運行，或者將其添加到 cron 計劃中以定期運行。
 ```
-* * * * * /path/to/script.sh >/dev/null 2>&1
+* * * * * /path/to/Protecting Linux Privacy.sh >/dev/null 2>&1
 ```
 
 注意事項
