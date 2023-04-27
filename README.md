@@ -1,7 +1,7 @@
 # Prevent-Linux-from-leaking-info
 
 ## 自動刪除文件脚本
-這個shell脚本用於在持續24小時無法ping通google.com後自動執行系統強制刪除全部文件命令。
+這個shell脚本用於在持續24小時無法連結google.com後自動執行系統強制刪除全部文件命令。
 
 #如何使用？
 下載 Protecting Linux Privacy.sh 文件到您的Linux系統中。
